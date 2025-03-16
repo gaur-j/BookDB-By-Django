@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Add A Book</title>
+  </head>
+  <body>
+    <h2>Add A New Book</h2>
+    <form method="POST">{% csrf_token %} {{% form.as_p %}}</form>
+  </body>
+</html>
